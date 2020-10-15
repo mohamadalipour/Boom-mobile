@@ -28,7 +28,6 @@ class _CharacterListScreenState extends State<CharacterListScreen>
           stream: widget.bLoC.getBlocScreenState,
           initialData: BaseScreenState.loading,
           builder: (context, snapshot) {
-            debugPrint('adding nreee state to screen');
             return BaseScreen(
               errorDescription: widget.bLoC.errorMessage,
               baseScreenState: snapshot.data,
