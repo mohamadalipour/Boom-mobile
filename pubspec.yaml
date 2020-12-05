@@ -30,9 +30,9 @@ dependencies:
 
   cupertino_icons: ^1.0.0
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
+#dev_dependencies:
+#  flutter_test:
+#    sdk: flutter
 
 flutter:
   uses-material-design: true
